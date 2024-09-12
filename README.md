@@ -17,8 +17,11 @@ The backend is written in Python with FastAPI
 2. Open a terminal
 3. `cd frontend`
 4. `npm install`
-5. `npm run start`
-6. Open a new terminal o a tab
-7. `cd backend`
-8. `pip install -r requirements.txt`
-9. `uvicorn main:app --reload`
+5. Change the line 41 to the appropriate URL of the backend.
+6. `npm run start`
+7. Open a new terminal o a tab
+8. `cd backend`
+9. Change the lines 19 and 20 to include the appropriate URL and API Key from the configuration.
+10. `pip install -r requirements.txt`
+11. `uvicorn main:app --reload`
+12. Visit `http://127.0.0.1:3000` in your browser
